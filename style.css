@@ -1,6 +1,7 @@
 h1 {
     font-family: "Arial", sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 h2 {
@@ -8,3 +9,18 @@ h2 {
     font-weight: bold;
     color: #7c007c;
 }
+
+.list-container {
+    text-align: center;
+}
+
+.list-container li {
+    border: 5px solid red;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+  }
